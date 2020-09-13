@@ -9,5 +9,5 @@ echo "Bluepetit: セットアップをはじめます..."
 && pip3 install joycontrol \
 && git clone --recursive https://github.com/Almtr/joycontrol-pluginloader.git \
 && pip3 install joycontrol-pluginloader \
-&& echo "Bluepetit: セットアップが完了しました"
+&& echo "Bluepetit: セットアップが完了しました" \
 || echo "Bluepetit: セットアップに失敗しました"
